@@ -1,0 +1,3329 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xtreme Force Envigado | Gimnasio de Alto Rendimiento y Entrenamiento Consciente</title>
+  <meta name="description" content="Xtreme Force Envigado: Gimnasio líder en entrenamiento consciente, fuerza, funcional y HIIT en Envigado (Calle 44 Sur #43A-105). +8.000 miembros. ¡Pide tu clase de prueba!">
+  <meta name="keywords" content="gimnasio envigado, xtreme force envigado, cross training envigado, gimnasio calle 44 sur, gym envigado antioquia, entrenamiento funcional envigado, pesas envigado">
+  <meta name="theme-color" content="#070908">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Redes Sociales -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Xtreme Force Envigado | Despierta tu Grandeza">
+  <meta property="og:description" content="Entrenamiento consciente, dinámico y efectivo en Envigado. Conoce nuestras instalaciones de 600m², horarios desde las 5:00 AM y agenda tu clase de prueba.">
+  <meta property="og:image" content="img/gym-1.jpg">
+  <meta property="og:locale" content="es_CO">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="img/logo.png">
+  <link rel="apple-touch-icon" href="img/logo.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Syne:wght@700;800&family=Anton&display=swap" rel="stylesheet">
+
+  <!-- Schema.org JSON-LD para SEO Local -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ExerciseGym",
+    "name": "Xtreme Force Envigado",
+    "image": "https://xfenvigado.com/img/gym-1.jpg",
+    "logo": "https://xfenvigado.com/img/logo.png",
+    "description": "Gimnasio en Envigado especializado en entrenamiento de fuerza, funcional, HIIT y acondicionamiento consciente.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Calle 44 Sur #43A-105",
+      "addressLocality": "Envigado",
+      "addressRegion": "Antioquia",
+      "addressCountry": "CO"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 6.1685,
+      "longitude": -75.5902
+    },
+    "telephone": "+573508702821",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+        "opens": "05:00",
+        "closes": "12:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+        "opens": "15:00",
+        "closes": "21:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Friday",
+        "opens": "05:00",
+        "closes": "12:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Friday",
+        "opens": "15:00",
+        "closes": "20:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "08:00",
+        "closes": "12:00"
+      }
+    ],
+    "sameAs": [
+      "https://instagram.com/xf_envigado"
+    ]
+  }
+  </script>
+
+  <style>
+    /* ==========================================================================
+       VARIABLES Y SISTEMA DE DISEÑO XTREME FORCE
+       ========================================================================== */
+    :root {
+      --bg: #070908;
+      --bg-alt: #0d120f;
+      --card-bg: rgba(18, 24, 20, 0.7);
+      --card-hover: rgba(26, 36, 30, 0.95);
+      --card-border: rgba(57, 255, 20, 0.12);
+      --card-border-hover: rgba(57, 255, 20, 0.45);
+      
+      --neon: #39ff14;
+      --neon-glow: rgba(57, 255, 20, 0.35);
+      --neon-dark: #1e870e;
+      --neon-secondary: #00ffaa;
+
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      --line: #1c2620;
+
+      --font-display: 'Syne', 'Anton', sans-serif;
+      --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      --container: 1180px;
+
+      --radius-sm: 8px;
+      --radius-md: 14px;
+      --radius-lg: 20px;
+      --radius-full: 9999px;
+
+      --shadow-sm: 0 4px 14px rgba(0, 0, 0, 0.4);
+      --shadow-neon: 0 0 25px rgba(57, 255, 20, 0.35), 0 0 50px rgba(57, 255, 20, 0.15);
+      --transition-smooth: all 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      color-scheme: dark;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: var(--font-body);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+      background-image: 
+        radial-gradient(circle at 15% 15%, rgba(57, 255, 20, 0.05) 0%, transparent 40%),
+        radial-gradient(circle at 85% 65%, rgba(0, 255, 170, 0.04) 0%, transparent 45%);
+      background-attachment: fixed;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button, input, select {
+      font-family: inherit;
+    }
+
+    .container {
+      max-width: var(--container);
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* ==========================================================================
+       TIPOGRAFÍAS Y ELEMENTOS REUTILIZABLES
+       ========================================================================== */
+    .neon-text {
+      color: var(--neon);
+      text-shadow: 0 0 16px rgba(57, 255, 20, 0.45);
+    }
+
+    .tag-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 14px;
+      background: rgba(57, 255, 20, 0.1);
+      border: 1px solid rgba(57, 255, 20, 0.25);
+      border-radius: var(--radius-full);
+      color: var(--neon);
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .section-header {
+      text-align: center;
+      max-width: 680px;
+      margin: 0 auto 52px;
+    }
+
+    .section-eyebrow {
+      color: var(--neon);
+      font-size: 0.85rem;
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+      display: block;
+    }
+
+    .section-title {
+      font-family: var(--font-display);
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.12;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 16px;
+      color: #fff;
+    }
+
+    .section-subtitle {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+    }
+
+    /* BOTONES */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      border-radius: var(--radius-sm);
+      padding: 13px 26px;
+      cursor: pointer;
+      transition: var(--transition-smooth);
+      border: 1px solid transparent;
+      text-align: center;
+      user-select: none;
+    }
+
+    .btn-primary {
+      background: var(--neon);
+      color: #050a06;
+      border-color: var(--neon);
+      box-shadow: 0 0 20px rgba(57, 255, 20, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+    }
+    .btn-primary:hover {
+      background: #4dff2c;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px rgba(57, 255, 20, 0.6);
+    }
+
+    .btn-secondary {
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--text);
+      border-color: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(10px);
+    }
+    .btn-secondary:hover {
+      background: rgba(57, 255, 20, 0.12);
+      border-color: var(--neon);
+      color: var(--neon);
+      transform: translateY(-2px);
+    }
+
+    .btn-outline-neon {
+      background: transparent;
+      color: var(--neon);
+      border: 2px solid var(--neon);
+    }
+    .btn-outline-neon:hover {
+      background: var(--neon);
+      color: #050a06;
+      box-shadow: 0 0 25px rgba(57, 255, 20, 0.5);
+      transform: translateY(-2px);
+    }
+
+    .btn-sm {
+      padding: 8px 18px;
+      font-size: 0.85rem;
+    }
+
+    /* ==========================================================================
+       BARRA DE ANUNCIO SUPERIOR
+       ========================================================================== */
+    .top-promo-bar {
+      background: linear-gradient(90deg, #103417, #0a1f0d, #14441c);
+      border-bottom: 1px solid rgba(57, 255, 20, 0.25);
+      font-size: 0.82rem;
+      padding: 8px 0;
+      color: #e2e8f0;
+      text-align: center;
+    }
+    .top-promo-bar .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+    .top-promo-badge {
+      background: var(--neon);
+      color: #050a06;
+      font-weight: 800;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.72rem;
+      letter-spacing: 0.04em;
+    }
+    .top-promo-link {
+      color: var(--neon);
+      text-decoration: underline;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    /* ==========================================================================
+       HEADER & NAVEGACIÓN
+       ========================================================================== */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(7, 9, 8, 0.88);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--line);
+      transition: background 0.3s ease;
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 72px;
+    }
+
+    .brand-link {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+    }
+
+    .brand-logo-img {
+      width: 42px;
+      height: 42px;
+      border-radius: 8px;
+      object-fit: cover;
+      box-shadow: 0 0 14px rgba(57, 255, 20, 0.35);
+      border: 1px solid rgba(57, 255, 20, 0.4);
+    }
+
+    .brand-title-wrap {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .brand-title {
+      font-family: var(--font-display);
+      font-size: 1.32rem;
+      font-weight: 800;
+      letter-spacing: 0.02em;
+      line-height: 1;
+      color: #fff;
+    }
+
+    .brand-subtitle {
+      font-size: 0.68rem;
+      letter-spacing: 0.16em;
+      color: var(--neon);
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-top: 2px;
+    }
+
+    .nav-desktop {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+    }
+
+    .nav-link {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      font-weight: 600;
+      transition: color 0.2s ease;
+      position: relative;
+      padding: 6px 0;
+    }
+    .nav-link:hover {
+      color: #fff;
+    }
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0%;
+      height: 2px;
+      background: var(--neon);
+      transition: width 0.2s ease;
+      border-radius: 2px;
+    }
+    .nav-link:hover::after {
+      width: 100%;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    /* Live status badge */
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 5px 12px;
+      background: rgba(18, 24, 20, 0.8);
+      border: 1px solid rgba(57, 255, 20, 0.25);
+      border-radius: var(--radius-full);
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: #e2e8f0;
+    }
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #64748b;
+      position: relative;
+    }
+    .status-dot.active {
+      background: var(--neon);
+      box-shadow: 0 0 10px var(--neon);
+    }
+    .status-dot.active::after {
+      content: '';
+      position: absolute;
+      inset: -3px;
+      border-radius: 50%;
+      border: 1px solid var(--neon);
+      animation: pulsePing 1.8s infinite;
+    }
+
+    @keyframes pulsePing {
+      0% { transform: scale(1); opacity: 1; }
+      100% { transform: scale(2.4); opacity: 0; }
+    }
+
+    .mobile-menu-btn {
+      display: none;
+      background: transparent;
+      border: 1px solid var(--line);
+      color: var(--text);
+      width: 42px;
+      height: 42px;
+      border-radius: 8px;
+      cursor: pointer;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Menú móvil */
+    .mobile-drawer {
+      display: none;
+      position: fixed;
+      top: 72px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(7, 9, 8, 0.98);
+      backdrop-filter: blur(20px);
+      padding: 30px 24px;
+      z-index: 99;
+      flex-direction: column;
+      gap: 20px;
+      overflow-y: auto;
+    }
+    .mobile-drawer.open {
+      display: flex;
+    }
+    .mobile-drawer .nav-link {
+      font-size: 1.2rem;
+      padding: 12px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    /* ==========================================================================
+       HERO SECTION
+       ========================================================================== */
+    .hero-section {
+      position: relative;
+      padding: 80px 0 90px;
+      overflow: hidden;
+      border-bottom: 1px solid var(--line);
+      min-height: 86vh;
+      display: flex;
+      align-items: center;
+    }
+
+    .hero-bg-layer {
+      position: absolute;
+      inset: 0;
+      background: 
+        linear-gradient(180deg, rgba(7, 9, 8, 0.72) 0%, rgba(7, 9, 8, 0.88) 60%, #070908 100%),
+        linear-gradient(90deg, rgba(7, 9, 8, 0.95) 0%, rgba(7, 9, 8, 0.75) 50%, rgba(7, 9, 8, 0.88) 100%),
+        url('img/gym-1.jpg') center/cover no-repeat;
+      z-index: 1;
+      opacity: 0.92;
+      filter: saturate(1.15) contrast(1.1);
+    }
+
+    .hero-cross-light {
+      position: absolute;
+      top: 10%;
+      right: 5%;
+      width: 500px;
+      height: 500px;
+      background: radial-gradient(circle, rgba(57, 255, 20, 0.16) 0%, rgba(57, 255, 20, 0) 70%);
+      pointer-events: none;
+      z-index: 2;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 3;
+      max-width: 760px;
+    }
+
+    .hero-eyebrow-box {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 22px;
+    }
+
+    .hero-title {
+      font-family: var(--font-display);
+      font-size: clamp(2.8rem, 6.2vw, 4.6rem);
+      line-height: 1.02;
+      letter-spacing: -0.02em;
+      margin-bottom: 24px;
+      color: #ffffff;
+      text-transform: uppercase;
+    }
+
+    .hero-description {
+      font-size: clamp(1.05rem, 1.8vw, 1.25rem);
+      color: #cbd5e1;
+      line-height: 1.6;
+      margin-bottom: 34px;
+      max-width: 650px;
+    }
+
+    .hero-buttons {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+    }
+
+    .hero-highlights-strip {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 16px;
+      padding-top: 24px;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .highlight-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.88rem;
+      color: var(--text-muted);
+    }
+    .highlight-item svg {
+      width: 20px;
+      height: 20px;
+      color: var(--neon);
+      flex-shrink: 0;
+    }
+
+    /* ==========================================================================
+       STATS TICKER SECTION
+       ========================================================================== */
+    .stats-section {
+      background: var(--bg-alt);
+      border-bottom: 1px solid var(--line);
+      padding: 38px 0;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+    }
+
+    .stat-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 16px 12px;
+      border-right: 1px solid var(--line);
+    }
+    .stat-card:last-child {
+      border-right: none;
+    }
+
+    .stat-number {
+      font-family: var(--font-display);
+      font-size: clamp(2.2rem, 3.8vw, 3.2rem);
+      font-weight: 800;
+      color: #ffffff;
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+    .stat-number span {
+      color: var(--neon);
+    }
+
+    .stat-label {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    /* ==========================================================================
+       FILOSOFÍA & PILARES ("EL MÉTODO XTREME FORCE")
+       ========================================================================== */
+    .about-section {
+      padding: 96px 0;
+      border-bottom: 1px solid var(--line);
+      position: relative;
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 48px;
+      align-items: center;
+      margin-bottom: 64px;
+    }
+
+    .about-visual {
+      position: relative;
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      border: 1px solid var(--card-border);
+      box-shadow: var(--shadow-sm);
+    }
+    .about-visual img {
+      width: 100%;
+      height: 480px;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+    .about-visual:hover img {
+      transform: scale(1.03);
+    }
+    .about-floating-badge {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      background: rgba(7, 9, 8, 0.92);
+      border: 1px solid var(--card-border-hover);
+      backdrop-filter: blur(12px);
+      padding: 14px 20px;
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .about-floating-badge strong {
+      display: block;
+      color: var(--neon);
+      font-size: 1.15rem;
+      font-family: var(--font-display);
+    }
+    .about-floating-badge span {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+    }
+
+    .about-info-text {
+      color: var(--text-muted);
+      font-size: 1.08rem;
+      line-height: 1.7;
+      margin-bottom: 28px;
+    }
+
+    .pillars-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+
+    .pillar-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius-md);
+      padding: 32px 24px;
+      transition: var(--transition-smooth);
+      position: relative;
+      overflow: hidden;
+    }
+    .pillar-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 48px;
+      height: 4px;
+      background: var(--neon);
+      border-radius: 0 0 4px 0;
+    }
+    .pillar-card:hover {
+      background: var(--card-hover);
+      border-color: var(--card-border-hover);
+      transform: translateY(-4px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+    }
+
+    .pillar-icon-box {
+      width: 52px;
+      height: 52px;
+      border-radius: 10px;
+      background: rgba(57, 255, 20, 0.1);
+      border: 1px solid rgba(57, 255, 20, 0.25);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--neon);
+      margin-bottom: 20px;
+    }
+
+    .pillar-title {
+      font-family: var(--font-display);
+      font-size: 1.35rem;
+      color: #fff;
+      margin-bottom: 12px;
+      letter-spacing: 0.01em;
+    }
+
+    .pillar-desc {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    /* ==========================================================================
+       DISCIPLINAS Y SERVICIOS CON TABS
+       ========================================================================== */
+    .services-section {
+      padding: 96px 0;
+      background: var(--bg-alt);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .services-tabs-nav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+    }
+
+    .tab-trigger {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--line);
+      color: var(--text-muted);
+      font-weight: 700;
+      font-size: 0.92rem;
+      padding: 10px 22px;
+      border-radius: var(--radius-full);
+      cursor: pointer;
+      transition: var(--transition-smooth);
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .tab-trigger:hover {
+      color: #fff;
+      border-color: rgba(57, 255, 20, 0.4);
+    }
+    .tab-trigger.active {
+      background: var(--neon);
+      color: #050a06;
+      border-color: var(--neon);
+      box-shadow: 0 0 18px rgba(57, 255, 20, 0.4);
+    }
+
+    .tab-pane {
+      display: none;
+      animation: fadeInTab 0.35s ease;
+    }
+    .tab-pane.active {
+      display: block;
+    }
+
+    @keyframes fadeInTab {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .services-cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 26px;
+    }
+
+    .service-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius-md);
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: var(--transition-smooth);
+    }
+    .service-card:hover {
+      background: var(--card-hover);
+      border-color: var(--card-border-hover);
+      transform: translateY(-4px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    .service-card-top {
+      margin-bottom: 22px;
+    }
+
+    .service-badge-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 18px;
+    }
+
+    .service-level-badge {
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 4px;
+      background: rgba(255, 255, 255, 0.08);
+      color: #cbd5e1;
+      text-transform: uppercase;
+    }
+
+    .service-icon-wrap {
+      width: 44px;
+      height: 44px;
+      border-radius: 8px;
+      background: rgba(57, 255, 20, 0.12);
+      color: var(--neon);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .service-card-title {
+      font-family: var(--font-display);
+      font-size: 1.35rem;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .service-card-desc {
+      color: var(--text-muted);
+      font-size: 0.94rem;
+      line-height: 1.6;
+      margin-bottom: 18px;
+    }
+
+    .service-feature-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-bottom: 24px;
+    }
+    .service-feature-list li {
+      font-size: 0.85rem;
+      color: #cbd5e1;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .service-feature-list li svg {
+      width: 16px;
+      height: 16px;
+      color: var(--neon);
+      flex-shrink: 0;
+    }
+
+    /* ==========================================================================
+       HORARIOS EN TIEMPO REAL
+       ========================================================================== */
+    .schedule-section {
+      padding: 96px 0;
+      border-bottom: 1px solid var(--line);
+      position: relative;
+    }
+
+    .schedule-live-box {
+      background: linear-gradient(135deg, rgba(18, 30, 22, 0.85), rgba(10, 16, 12, 0.95));
+      border: 1px solid rgba(57, 255, 20, 0.35);
+      border-radius: var(--radius-md);
+      padding: 24px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+    }
+
+    .schedule-live-info {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+
+    .live-clock-pill {
+      font-family: monospace;
+      font-size: 1.1rem;
+      color: var(--neon);
+      background: rgba(0, 0, 0, 0.5);
+      padding: 6px 14px;
+      border-radius: var(--radius-sm);
+      border: 1px solid rgba(57, 255, 20, 0.3);
+    }
+
+    .schedule-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+
+    .schedule-day-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius-md);
+      padding: 26px 22px;
+      position: relative;
+      transition: var(--transition-smooth);
+    }
+    .schedule-day-card.today {
+      border-color: var(--neon);
+      background: rgba(22, 36, 26, 0.85);
+      box-shadow: 0 0 25px rgba(57, 255, 20, 0.2);
+    }
+    .today-tag {
+      position: absolute;
+      top: -11px;
+      right: 18px;
+      background: var(--neon);
+      color: #050a06;
+      font-size: 0.68rem;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      padding: 2px 10px;
+      border-radius: var(--radius-full);
+      text-transform: uppercase;
+    }
+
+    .schedule-day-card h3 {
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      color: #fff;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .schedule-shift {
+      margin-bottom: 12px;
+    }
+    .schedule-shift-label {
+      font-size: 0.76rem;
+      color: var(--neon);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 2px;
+    }
+    .schedule-shift-time {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    /* ==========================================================================
+       PLANES Y MEMBRESÍAS
+       ========================================================================== */
+    .pricing-section {
+      padding: 96px 0;
+      background: var(--bg-alt);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .pricing-toggle-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      margin-bottom: 48px;
+    }
+
+    .pricing-toggle-btn {
+      background: var(--card-bg);
+      border: 1px solid var(--line);
+      color: var(--text-muted);
+      padding: 10px 22px;
+      border-radius: var(--radius-full);
+      font-weight: 700;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: var(--transition-smooth);
+    }
+    .pricing-toggle-btn.active {
+      background: var(--neon);
+      color: #050a06;
+      border-color: var(--neon);
+      box-shadow: 0 0 16px rgba(57, 255, 20, 0.4);
+    }
+
+    .discount-pill {
+      background: #f59e0b;
+      color: #050a06;
+      font-size: 0.72rem;
+      font-weight: 800;
+      padding: 2px 8px;
+      border-radius: 4px;
+      margin-left: 6px;
+    }
+
+    .pricing-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+      align-items: stretch;
+    }
+
+    .pricing-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius-lg);
+      padding: 38px 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+      transition: var(--transition-smooth);
+    }
+    .pricing-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6);
+      border-color: var(--card-border-hover);
+    }
+
+    .pricing-card.featured {
+      background: linear-gradient(180deg, rgba(26, 44, 32, 0.9) 0%, rgba(14, 24, 18, 0.95) 100%);
+      border: 2px solid var(--neon);
+      box-shadow: 0 0 35px rgba(57, 255, 20, 0.25);
+      transform: scale(1.03);
+    }
+    .pricing-card.featured:hover {
+      transform: scale(1.03) translateY(-6px);
+      box-shadow: 0 0 45px rgba(57, 255, 20, 0.4);
+    }
+
+    .pricing-featured-badge {
+      position: absolute;
+      top: -14px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--neon);
+      color: #050a06;
+      font-weight: 800;
+      font-size: 0.74rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 4px 16px;
+      border-radius: var(--radius-full);
+      box-shadow: 0 4px 14px rgba(57, 255, 20, 0.4);
+    }
+
+    .pricing-plan-name {
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      color: #fff;
+      margin-bottom: 6px;
+    }
+
+    .pricing-plan-desc {
+      color: var(--text-muted);
+      font-size: 0.88rem;
+      margin-bottom: 24px;
+    }
+
+    .pricing-price-wrap {
+      display: flex;
+      align-items: baseline;
+      gap: 6px;
+      margin-bottom: 28px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .pricing-currency {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--neon);
+    }
+
+    .pricing-amount {
+      font-family: var(--font-display);
+      font-size: 3rem;
+      line-height: 1;
+      color: #fff;
+    }
+
+    .pricing-period {
+      color: var(--text-dim);
+      font-size: 0.88rem;
+    }
+
+    .pricing-features {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 34px;
+    }
+    .pricing-features li {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 0.92rem;
+      color: #cbd5e1;
+    }
+    .pricing-features li svg {
+      width: 18px;
+      height: 18px;
+      color: var(--neon);
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    /* ==========================================================================
+       HERRAMIENTA FITNESS: CALCULADORA IMC & OBJETIVOS
+       ========================================================================== */
+    .calculator-section {
+      padding: 96px 0;
+      border-bottom: 1px solid var(--line);
+      position: relative;
+    }
+
+    .calculator-box {
+      background: linear-gradient(135deg, rgba(20, 32, 24, 0.75), rgba(11, 16, 13, 0.95));
+      border: 1px solid var(--card-border-hover);
+      border-radius: var(--radius-lg);
+      padding: 48px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+      box-shadow: 0 16px 50px rgba(0, 0, 0, 0.6);
+    }
+
+    .calculator-form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    .form-field {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .form-field label {
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: #e2e8f0;
+    }
+    .form-field input, .form-field select {
+      background: rgba(7, 9, 8, 0.85);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-sm);
+      color: #fff;
+      padding: 12px 16px;
+      font-size: 1rem;
+      outline: none;
+      transition: border-color 0.2s ease;
+    }
+    .form-field input:focus, .form-field select:focus {
+      border-color: var(--neon);
+      box-shadow: 0 0 12px rgba(57, 255, 20, 0.25);
+    }
+
+    .calculator-result-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background: rgba(7, 9, 8, 0.65);
+      border: 1px dashed var(--line);
+      border-radius: var(--radius-md);
+      padding: 32px;
+      text-align: center;
+    }
+
+    .imc-score {
+      font-family: var(--font-display);
+      font-size: 4rem;
+      line-height: 1;
+      color: var(--neon);
+      margin-bottom: 8px;
+    }
+
+    .imc-category {
+      font-weight: 800;
+      font-size: 1.2rem;
+      color: #fff;
+      margin-bottom: 12px;
+    }
+
+    .imc-recommendation {
+      color: var(--text-muted);
+      font-size: 0.94rem;
+      line-height: 1.6;
+      margin-bottom: 24px;
+    }
+
+    /* ==========================================================================
+       GALERÍA REAL & LIGHTBOX
+       ========================================================================== */
+    .gallery-section {
+      padding: 96px 0;
+      background: var(--bg-alt);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .gallery-filter-nav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 36px;
+      flex-wrap: wrap;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .gallery-card {
+      position: relative;
+      aspect-ratio: 4 / 3;
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      border: 1px solid var(--card-border);
+      background: var(--card-bg);
+      cursor: pointer;
+    }
+    .gallery-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease, filter 0.5s ease;
+    }
+    .gallery-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, transparent 40%, rgba(7, 9, 8, 0.95) 100%);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 20px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+    .gallery-card:hover .gallery-overlay {
+      opacity: 1;
+    }
+    .gallery-card:hover img {
+      transform: scale(1.08);
+      filter: brightness(1.08);
+    }
+    .gallery-overlay h4 {
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      color: #fff;
+      margin-bottom: 4px;
+    }
+    .gallery-overlay p {
+      font-size: 0.82rem;
+      color: var(--neon);
+      font-weight: 600;
+    }
+
+    /* Lightbox Modal */
+    .lightbox-modal {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 200;
+      background: rgba(0, 0, 0, 0.94);
+      backdrop-filter: blur(12px);
+      align-items: center;
+      justify-content: center;
+      padding: 30px;
+    }
+    .lightbox-modal.open {
+      display: flex;
+    }
+    .lightbox-img-wrap {
+      max-width: 900px;
+      max-height: 80vh;
+      position: relative;
+    }
+    .lightbox-img {
+      max-height: 75vh;
+      width: auto;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--neon);
+      box-shadow: 0 0 40px rgba(57, 255, 20, 0.3);
+    }
+    .lightbox-close-btn {
+      position: absolute;
+      top: -46px;
+      right: 0;
+      background: transparent;
+      border: none;
+      color: #fff;
+      font-size: 2rem;
+      cursor: pointer;
+      line-height: 1;
+    }
+    .lightbox-caption {
+      margin-top: 14px;
+      color: #cbd5e1;
+      text-align: center;
+      font-size: 0.95rem;
+    }
+
+    /* ==========================================================================
+       COMUNIDAD & TESTIMONIOS
+       ========================================================================== */
+    .testimonials-section {
+      padding: 96px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .testimonials-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 26px;
+    }
+
+    .testimonial-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius-md);
+      padding: 32px 26px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: var(--transition-smooth);
+    }
+    .testimonial-card:hover {
+      background: var(--card-hover);
+      border-color: var(--card-border-hover);
+      transform: translateY(-4px);
+    }
+
+    .testimonial-stars {
+      display: flex;
+      gap: 4px;
+      color: #fbbf24;
+      margin-bottom: 16px;
+    }
+
+    .testimonial-quote {
+      color: #e2e8f0;
+      font-size: 0.96rem;
+      line-height: 1.65;
+      font-style: italic;
+      margin-bottom: 24px;
+    }
+
+    .testimonial-author {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      border-top: 1px solid var(--line);
+      padding-top: 16px;
+    }
+    .author-avatar {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: rgba(57, 255, 20, 0.15);
+      border: 1px solid var(--neon);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      color: var(--neon);
+      font-size: 0.9rem;
+    }
+    .author-meta strong {
+      display: block;
+      color: #fff;
+      font-size: 0.92rem;
+    }
+    .author-meta span {
+      color: var(--text-dim);
+      font-size: 0.78rem;
+    }
+
+    /* ==========================================================================
+       PREGUNTAS FRECUENTES (FAQ)
+       ========================================================================== */
+    .faq-section {
+      padding: 96px 0;
+      background: var(--bg-alt);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .faq-accordion {
+      max-width: 800px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .faq-item {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius-sm);
+      overflow: hidden;
+      transition: border-color 0.2s ease;
+    }
+    .faq-item[open] {
+      border-color: var(--neon);
+      background: var(--card-hover);
+    }
+
+    .faq-summary {
+      padding: 20px 24px;
+      font-weight: 700;
+      font-size: 1.05rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      list-style: none;
+      color: #fff;
+      user-select: none;
+    }
+    .faq-summary::-webkit-details-marker {
+      display: none;
+    }
+    .faq-icon-arrow {
+      color: var(--neon);
+      transition: transform 0.3s ease;
+      font-size: 1.2rem;
+    }
+    .faq-item[open] .faq-icon-arrow {
+      transform: rotate(180deg);
+    }
+
+    .faq-content {
+      padding: 0 24px 22px;
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      line-height: 1.65;
+    }
+
+    /* ==========================================================================
+       SEDE & UBICACIÓN EN ENVIGADO
+       ========================================================================== */
+    .location-section {
+      padding: 96px 0;
+      border-bottom: 1px solid var(--line);
+      position: relative;
+    }
+
+    .location-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .location-details-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius-lg);
+      padding: 40px;
+    }
+
+    .location-badge-zone {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--neon);
+      font-size: 0.85rem;
+      font-weight: 700;
+      margin-bottom: 14px;
+    }
+
+    .location-address-title {
+      font-family: var(--font-display);
+      font-size: 2rem;
+      color: #fff;
+      margin-bottom: 12px;
+      line-height: 1.2;
+    }
+
+    .location-reference {
+      color: var(--text-muted);
+      font-size: 1rem;
+      margin-bottom: 28px;
+      line-height: 1.6;
+    }
+
+    .location-pills-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 32px;
+    }
+    .location-pill-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 0.9rem;
+      color: #cbd5e1;
+    }
+    .location-pill-item svg {
+      width: 20px;
+      height: 20px;
+      color: var(--neon);
+      flex-shrink: 0;
+    }
+
+    .location-buttons-row {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .map-frame-box {
+      height: 440px;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      border: 1px solid var(--card-border);
+      box-shadow: var(--shadow-sm);
+      position: relative;
+    }
+    .map-frame-box iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      filter: invert(90%) hue-rotate(180deg) contrast(1.1) brightness(0.9);
+    }
+
+    /* ==========================================================================
+       CTA FINAL
+       ========================================================================== */
+    .cta-final-section {
+      padding: 100px 0;
+      background: 
+        radial-gradient(circle at center, rgba(57, 255, 20, 0.15) 0%, transparent 70%),
+        var(--bg);
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .cta-final-inner {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    .cta-title {
+      font-family: var(--font-display);
+      font-size: clamp(2.4rem, 5vw, 3.8rem);
+      color: #fff;
+      line-height: 1.1;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+
+    .cta-description {
+      color: #cbd5e1;
+      font-size: 1.15rem;
+      margin-bottom: 36px;
+      line-height: 1.6;
+    }
+
+    .cta-actions {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 18px;
+      flex-wrap: wrap;
+      margin-bottom: 28px;
+    }
+
+    .ig-social-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      font-weight: 600;
+      transition: color 0.2s ease;
+    }
+    .ig-social-pill:hover {
+      color: var(--neon);
+    }
+
+    /* ==========================================================================
+       FOOTER
+       ========================================================================== */
+    .site-footer {
+      background: #040504;
+      border-top: 1px solid var(--line);
+      padding: 40px 0;
+      font-size: 0.85rem;
+      color: var(--text-dim);
+    }
+    .footer-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    /* ==========================================================================
+       MODAL DE CLASE DE PRUEBA (<dialog>)
+       ========================================================================== */
+    dialog.modal-dialog {
+      position: fixed;
+      inset: 0;
+      margin: auto;
+      max-width: 520px;
+      width: calc(100% - 40px);
+      background: #0b110d;
+      border: 1px solid var(--card-border-hover);
+      border-radius: var(--radius-lg);
+      padding: 36px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8), 0 0 30px rgba(57, 255, 20, 0.2);
+      color: #fff;
+      z-index: 150;
+      opacity: 0;
+      transform: scale(0.94);
+      transition-property: opacity, transform, display, overlay;
+      transition-duration: 0.3s;
+      transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+      transition-behavior: allow-discrete;
+    }
+
+    dialog.modal-dialog[open] {
+      opacity: 1;
+      transform: scale(1);
+    }
+
+    @starting-style {
+      dialog.modal-dialog[open] {
+        opacity: 0;
+        transform: scale(0.94);
+      }
+    }
+
+    dialog.modal-dialog::backdrop {
+      background-color: rgba(0, 0, 0, 0);
+      backdrop-filter: blur(0px);
+      transition: display 0.3s allow-discrete, overlay 0.3s allow-discrete, background-color 0.3s ease-out, backdrop-filter 0.3s ease-out;
+    }
+
+    dialog.modal-dialog[open]::backdrop {
+      background-color: rgba(0, 0, 0, 0.75);
+      backdrop-filter: blur(8px);
+    }
+
+    @starting-style {
+      dialog.modal-dialog[open]::backdrop {
+        background-color: rgba(0, 0, 0, 0);
+        backdrop-filter: blur(0px);
+      }
+    }
+
+    .modal-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+
+    .modal-title {
+      font-family: var(--font-display);
+      font-size: 1.6rem;
+      color: #fff;
+    }
+
+    .modal-close-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-dim);
+      font-size: 1.8rem;
+      cursor: pointer;
+      line-height: 1;
+      transition: color 0.2s ease;
+    }
+    .modal-close-btn:hover {
+      color: var(--neon);
+    }
+
+    .modal-form {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    /* ==========================================================================
+       WHATSAPP FLOTANTE CON TOOLTIP
+       ========================================================================== */
+    .whatsapp-float-wrap {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      z-index: 120;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .whatsapp-tooltip {
+      background: rgba(14, 22, 17, 0.95);
+      border: 1px solid var(--neon);
+      color: #fff;
+      font-size: 0.84rem;
+      font-weight: 600;
+      padding: 8px 14px;
+      border-radius: var(--radius-sm);
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.5);
+      animation: floatBadge 3s ease-in-out infinite;
+      white-space: nowrap;
+    }
+
+    @keyframes floatBadge {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-4px); }
+    }
+
+    .whatsapp-float-btn {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background: var(--neon);
+      color: #050a06;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 6px 25px rgba(57, 255, 20, 0.5);
+      transition: var(--transition-smooth);
+      position: relative;
+    }
+    .whatsapp-float-btn:hover {
+      transform: scale(1.08);
+      box-shadow: 0 8px 32px rgba(57, 255, 20, 0.7);
+    }
+
+    /* Toast de copiado */
+    .toast-notice {
+      position: fixed;
+      bottom: 95px;
+      left: 50%;
+      transform: translateX(-50%) translateY(20px);
+      background: #121c16;
+      border: 1px solid var(--neon);
+      color: #fff;
+      font-size: 0.88rem;
+      font-weight: 700;
+      padding: 10px 22px;
+      border-radius: var(--radius-full);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+      opacity: 0;
+      pointer-events: none;
+      transition: all 0.3s ease;
+      z-index: 210;
+    }
+    .toast-notice.show {
+      opacity: 1;
+      transform: translateX(-50%) translateY(0);
+    }
+
+    /* ==========================================================================
+       MEDIA QUERIES (RESPONSIVE)
+       ========================================================================== */
+    @media (max-width: 1024px) {
+      .stats-grid { grid-template-columns: repeat(2, 1fr); }
+      .stat-card:nth-child(2) { border-right: none; }
+      .about-grid { grid-template-columns: 1fr; }
+      .about-visual img { height: 360px; }
+      .pricing-grid { grid-template-columns: 1fr; max-width: 500px; margin: 0 auto; }
+      .pricing-card.featured { transform: none; }
+      .pricing-card.featured:hover { transform: translateY(-4px); }
+      .calculator-box { grid-template-columns: 1fr; gap: 32px; }
+      .location-grid { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 768px) {
+      .nav-desktop, .status-badge { display: none; }
+      .mobile-menu-btn { display: flex; }
+      .pillars-grid { grid-template-columns: 1fr; }
+      .schedule-grid { grid-template-columns: repeat(2, 1fr); }
+      .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+      .testimonials-grid { grid-template-columns: 1fr; }
+      .whatsapp-tooltip { display: none; }
+    }
+
+    @media (max-width: 520px) {
+      .schedule-grid { grid-template-columns: 1fr; }
+      .gallery-grid { grid-template-columns: 1fr; }
+      .hero-section { padding: 60px 0 70px; }
+      .hero-buttons { flex-direction: column; width: 100%; }
+      .hero-buttons .btn { width: 100%; }
+      .calculator-box { padding: 24px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, ::before, ::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ==========================================================================
+       BARRA DE ANUNCIO SUPERIOR
+       ========================================================================== -->
+  <div class="top-promo-bar">
+    <div class="container">
+      <span class="top-promo-badge">PROMO ENVIGADO</span>
+      <span>¡Clase de cortesía disponible para nuevos atletas! Cupos limitados por turno.</span>
+      <a href="#modal-prueba" class="top-promo-link" id="top-promo-btn">Agendar mi clase gratis &rarr;</a>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       HEADER & NAVEGACIÓN
+       ========================================================================== -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="#inicio" class="brand-link" aria-label="Xtreme Force Envigado">
+        <img src="img/logo.png" alt="Logo Xtreme Force" class="brand-logo-img">
+        <div class="brand-title-wrap">
+          <span class="brand-title">XTREME <span class="neon-text">FORCE</span></span>
+          <span class="brand-subtitle">Envigado · Antioquia</span>
+        </div>
+      </a>
+
+      <!-- Navegación Escritorio -->
+      <nav class="nav-desktop" aria-label="Navegación principal">
+        <a href="#metodo" class="nav-link">Método</a>
+        <a href="#disciplinas" class="nav-link">Disciplinas</a>
+        <a href="#horarios" class="nav-link">Horarios</a>
+        <a href="#planes" class="nav-link">Membresías</a>
+        <a href="#calculadora" class="nav-link">Calculadora IMC</a>
+        <a href="#galeria" class="nav-link">Galería</a>
+        <a href="#ubicacion" class="nav-link">Sede</a>
+      </nav>
+
+      <!-- Acciones de Cabecera -->
+      <div class="header-actions">
+        <!-- Live Open/Closed indicator badge -->
+        <div class="status-badge" id="live-header-status">
+          <span class="status-dot" id="status-dot"></span>
+          <span id="status-text">Verificando...</span>
+        </div>
+
+        <button class="btn btn-primary btn-sm" id="btn-open-trial-modal">Clase Gratis</button>
+
+        <button class="mobile-menu-btn" id="mobile-toggle-btn" aria-label="Abrir menú" aria-expanded="false">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Menú Móvil Desplegable -->
+    <div class="mobile-drawer" id="mobile-drawer">
+      <a href="#metodo" class="nav-link mobile-link">El Método XF</a>
+      <a href="#disciplinas" class="nav-link mobile-link">Disciplinas & Servicios</a>
+      <a href="#horarios" class="nav-link mobile-link">Horarios de Entrenamiento</a>
+      <a href="#planes" class="nav-link mobile-link">Planes & Tarifas</a>
+      <a href="#calculadora" class="nav-link mobile-link">Calculadora Fitness</a>
+      <a href="#galeria" class="nav-link mobile-link">Fotos de las Instalaciones</a>
+      <a href="#ubicacion" class="nav-link mobile-link">Dónde Estamos</a>
+      <div style="margin-top: 16px; display: flex; flex-direction: column; gap: 12px;">
+        <button class="btn btn-primary" id="btn-open-trial-modal-mobile">🔥 Reclamar Clase de Prueba</button>
+        <a href="https://wa.me/573508702821?text=Hola%20Xtreme%20Force%20Envigado,%20quiero%20m%C3%A1s%20informaci%C3%B3n" class="btn btn-secondary" target="_blank" rel="noopener">Escribir por WhatsApp</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       HERO SECTION
+       ========================================================================== */
+  -->
+  <section class="hero-section" id="inicio">
+    <div class="hero-bg-layer" aria-hidden="true"></div>
+    <div class="hero-cross-light" aria-hidden="true"></div>
+
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-eyebrow-box">
+          <div class="tag-badge">
+            <span class="status-dot active"></span>
+            Envigado · Calle 44 Sur #43A-105
+          </div>
+          <span style="color: #fbbf24; font-size: 0.85rem; font-weight: 700;">★ 4.9/5 (+8.000 Atletas)</span>
+        </div>
+
+        <h1 class="hero-title">
+          DESPIERTA TU <span class="neon-text">GRANDEZA</span>.<br>
+          ENTRENA DISTINTO.
+        </h1>
+
+        <p class="hero-description">
+          El centro de entrenamiento consciente y de alto calibre en Envigado. 
+          Aquí no vienes a contar repeticiones aburridas: combinamos fuerza real, circuitos funcionales intensos y acompañamiento constante en más de 600m² de pura energía.
+        </p>
+
+        <div class="hero-buttons">
+          <button class="btn btn-primary" id="hero-cta-trial">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+            Reclamar Clase de Prueba
+          </button>
+          <a href="https://wa.me/573508702821?text=Hola%20Xtreme%20Force!%20Quiero%20conocer%20los%20planes%20y%20promociones%20en%20Envigado" class="btn btn-secondary" target="_blank" rel="noopener">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+            WhatsApp Directo
+          </a>
+          <a href="#horarios" class="btn btn-secondary">
+            Ver Horarios Hoy
+          </a>
+        </div>
+
+        <div class="hero-highlights-strip">
+          <div class="highlight-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 4v16M18 4v16M2 8h4M18 8h4M2 16h4M18 16h4M6 12h12"/></svg>
+            <span>Fuerza & Racks de potencia</span>
+          </div>
+          <div class="highlight-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+            <span>Desde las 5:00 AM lunes a viernes</span>
+          </div>
+          <div class="highlight-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+            <span>Entrenadores de sala activos</span>
+          </div>
+          <div class="highlight-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+            <span>Ring, césped sintético & HIIT</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       STATS TICKER
+       ========================================================================== -->
+  <section class="stats-section" aria-label="Métricas del gimnasio">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-number">+8.000<span>+</span></div>
+          <div class="stat-label">Comunidad & Atletas</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">600<span>m²</span></div>
+          <div class="stat-label">Área de Entrenamiento</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">100<span>%</span></div>
+          <div class="stat-label">Enfoque Consciente</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">+10<span>Años</span></div>
+          <div class="stat-label">Transformando Vidas</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FILOSOFÍA & PILARES ("EL MÉTODO")
+       ========================================================================== -->
+  <section class="about-section" id="metodo">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-content">
+          <span class="section-eyebrow">Nuestra Filosofía</span>
+          <h2 class="section-title">No es solo levantar peso. Es saber <span class="neon-text">por qué lo haces</span>.</h2>
+          <p class="about-info-text">
+            En Xtreme Force Envigado rompimos con el modelo tradicional del gimnasio donde nadie te saluda ni te enseña la postura adecuada. Creamos un espacio donde la técnica impecable, la intensidad dosificada y la motivación comunitaria se unen para darte resultados duraderos y seguros.
+          </p>
+          <p class="about-info-text">
+            Nuestras paredes no tienen frases vacías: cada día nuestros atletas se retan bajo el lema <strong>"Cambiando Vidas"</strong> y <strong>"Despierta tu Grandeza"</strong>.
+          </p>
+          <div style="display: flex; gap: 14px; flex-wrap: wrap;">
+            <button class="btn btn-outline-neon btn-sm" id="btn-about-trial">Agendar Visita Guiada</button>
+            <a href="#galeria" class="btn btn-secondary btn-sm">Ver Nuestras Áreas</a>
+          </div>
+        </div>
+
+        <div class="about-visual">
+          <img src="img/gym-4.jpg" alt="Escalera motivacional y logo Xtreme Force Envigado">
+          <div class="about-floating-badge">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#39ff14" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            <div>
+              <strong>ENERGÍA & ACTITUD</strong>
+              <span>Ambiente diseñado para superarte</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3 Pilares -->
+      <div class="pillars-grid">
+        <div class="pillar-card">
+          <div class="pillar-icon-box">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg>
+          </div>
+          <h3 class="pillar-title">1. Consciente</h3>
+          <p class="pillar-desc">
+            Cada ejercicio tiene un propósito anatómico claro. Te enseñamos a conectar mente y músculo para maximizar la activación y evitar lesiones que frenan tu progreso.
+          </p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon-box">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+          </div>
+          <h3 class="pillar-title">2. Dinámico</h3>
+          <p class="pillar-desc">
+            Adiós a la rutina aburrida de siempre. Alternamos bloques de hipertrofia, sprints en trineo, kettlebells, boxeo y desafíos funcionales con música de alto octanaje.
+          </p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon-box">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+          </div>
+          <h3 class="pillar-title">3. Efectivo</h3>
+          <p class="pillar-desc">
+            Medimos tu evolución. Ganancia de masa muscular magra, reducción de porcentaje graso y un aumento brutal en tu nivel de energía y concentración diaria.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       DISCIPLINAS Y SERVICIOS (TABS COMPLETAMENTE ESTILADOS)
+       ========================================================================== -->
+  <section class="services-section" id="disciplinas">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Zonas & Especialidades</span>
+        <h2 class="section-title">Elige cómo quieres <span class="neon-text">entrenar hoy</span></h2>
+        <p class="section-subtitle">Nuestras instalaciones están divididas por zonas especializadas para que cumplas cualquier meta física.</p>
+      </div>
+
+      <!-- Navegador de pestañas -->
+      <div class="services-tabs-nav" role="tablist">
+        <button class="tab-trigger active" data-tab="tab-fuerza" role="tab" aria-selected="true">
+          🏋️‍♂️ Fuerza & Hipertrofia
+        </button>
+        <button class="tab-trigger" data-tab="tab-funcional" role="tab" aria-selected="false">
+          ⚡ Funcional & Cross
+        </button>
+        <button class="tab-trigger" data-tab="tab-cardio" role="tab" aria-selected="false">
+          🔥 HIIT & Cardio Acelerado
+        </button>
+        <button class="tab-trigger" data-tab="tab-combate" role="tab" aria-selected="false">
+          🥊 Boxeo & Ring
+        </button>
+        <button class="tab-trigger" data-tab="tab-recovery" role="tab" aria-selected="false">
+          🧘 Movilidad & Recovery
+        </button>
+      </div>
+
+      <!-- Contenido Tab 1: Fuerza -->
+      <div class="tab-pane active" id="tab-fuerza">
+        <div class="services-cards-grid">
+          <div class="service-card">
+            <div class="service-card-top">
+              <div class="service-badge-row">
+                <span class="service-level-badge">Todos los niveles</span>
+                <div class="service-icon-wrap">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 4v16M18 4v16M2 8h4M18 8h4M2 16h4M18 16h4M6 12h12"/></svg>
+                </div>
+              </div>
+              <h3 class="service-card-title">Musculación & Sobrecarga Progresiva</h3>
+              <p class="service-card-desc">Equipamiento completo de pesas libres, barras olímpicas, mancuernas de alto gramaje y poleas biomecánicas para esculpir masa muscular con técnica perfecta.</p>
+              <ul class="service-feature-list">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Racks de sentadillas y plataformas de levantamiento</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Banco plano, inclinado y declinado olímpico</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Plan de progresión con entrenadores presentes</li>
+              </ul>
+            </div>
+            <a href="https://wa.me/573508702821?text=Hola,%20quiero%20informaci%C3%B3n%20sobre%20entrenamiento%20de%20Fuerza%20en%20Xtreme%20Force" class="btn btn-secondary btn-sm" target="_blank" rel="noopener">Consultar por WhatsApp &rarr;</a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-card-top">
+              <div class="service-badge-row">
+                <span class="service-level-badge">Fuerza Pura</span>
+                <div class="service-icon-wrap">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                </div>
+              </div>
+              <h3 class="service-card-title">Powerlifting & Levantamientos Pesados</h3>
+              <p class="service-card-desc">Para quienes buscan romper sus marcas personales de sentadilla, press de banca y peso muerto con discos calibrados y magnesio permitido.</p>
+              <ul class="service-feature-list">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Barras olímpicas de 20kg con rodamientos fluidos</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Discos bumper de alto impacto</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Corrección de postura para máxima seguridad articular</li>
+              </ul>
+            </div>
+            <a href="https://wa.me/573508702821?text=Hola,%20quiero%20entrenar%20Powerlifting%20en%20Xtreme%20Force%20Envigado" class="btn btn-secondary btn-sm" target="_blank" rel="noopener">Consultar por WhatsApp &rarr;</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contenido Tab 2: Funcional -->
+      <div class="tab-pane" id="tab-funcional">
+        <div class="services-cards-grid">
+          <div class="service-card">
+            <div class="service-card-top">
+              <div class="service-badge-row">
+                <span class="service-level-badge">Pista de Césped</span>
+                <div class="service-icon-wrap">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"></path><line x1="4" y1="22" x2="4" y2="15"></line></svg>
+                </div>
+              </div>
+              <h3 class="service-card-title">Cross & Pista Atlética</h3>
+              <p class="service-card-desc">Nuestra zona de césped sintético y piso de caucho reforzado para empuje de trineos, saltos al cajón plyo, cuerdas de batalla y lanzamientos de balones de pared.</p>
+              <ul class="service-feature-list">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Sleds / Trineos de arrastre y empuje</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Kettlebells rusas de 8kg a 32kg</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Cajones de salto de madera resistente</li>
+              </ul>
+            </div>
+            <a href="https://wa.me/573508702821?text=Hola,%20quiero%20info%20de%20la%20zona%20Funcional%20y%20Cross%20de%20Xtreme%20Force" class="btn btn-secondary btn-sm" target="_blank" rel="noopener">Consultar por WhatsApp &rarr;</a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-card-top">
+              <div class="service-badge-row">
+                <span class="service-level-badge">Circuito Guiado</span>
+                <div class="service-icon-wrap">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                </div>
+              </div>
+              <h3 class="service-card-title">Clases Grupales de Rendimiento</h3>
+              <p class="service-card-desc">Suda junto a una comunidad que te empuja a dar una repetición más. Rutinas programadas día a día para que tu cuerpo nunca se estanque.</p>
+              <ul class="service-feature-list">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Duración: 45 a 60 minutos intensos</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Música estimulante y cronómetros de competencia</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Adaptable tanto para principiantes como atletas Pro</li>
+              </ul>
+            </div>
+            <a href="https://wa.me/573508702821?text=Hola,%20quiero%20conocer%20los%20horarios%20de%20las%20Clases%20Grupales" class="btn btn-secondary btn-sm" target="_blank" rel="noopener">Consultar por WhatsApp &rarr;</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contenido Tab 3: HIIT & Cardio -->
+      <div class="tab-pane" id="tab-cardio">
+        <div class="services-cards-grid">
+          <div class="service-card">
+            <div class="service-card-top">
+              <div class="service-badge-row">
+                <span class="service-level-badge">Quema Calórica</span>
+                <div class="service-icon-wrap">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path></svg>
+                </div>
+              </div>
+              <h3 class="service-card-title">HIIT Quema-Grasa Extremo</h3>
+              <p class="service-card-desc">Intervalos de altísima demanda metabólica (Tabata, EMOM, AMRAP) diseñados para elevar el gasto calórico durante las 24 horas posteriores a tu entrenamiento.</p>
+              <ul class="service-feature-list">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Acelera tu metabolismo y capacidad aeróbica</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Air Bikes (bicicletas de resistencia por aire)</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Remos de concepto y trotadoras de alta velocidad</li>
+              </ul>
+            </div>
+            <a href="https://wa.me/573508702821?text=Hola,%20quiero%20informaci%C3%B3n%20sobre%20el%20entrenamiento%20HIIT" class="btn btn-secondary btn-sm" target="_blank" rel="noopener">Consultar por WhatsApp &rarr;</a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-card-top">
+              <div class="service-badge-row">
+                <span class="service-level-badge">Salud Cardíaca</span>
+                <div class="service-icon-wrap">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                </div>
+              </div>
+              <h3 class="service-card-title">Cardio Estable & Resistencia (LISS)</h3>
+              <p class="service-card-desc">Estaciones cardiovasculares para trabajo continuo, control de pulsaciones, pre-calentamiento y acondicionamiento aeróbico sostenido.</p>
+              <ul class="service-feature-list">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Control de frecuencia cardíaca óptima</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Complemento perfecto para pérdida de grasa</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Ideal para calentamientos y descompresiones</li>
+              </ul>
+            </div>
+            <a href="https://wa.me/573508702821?text=Hola,%20quiero%20saber%20sobre%20las%20estaciones%20de%20Cardio" class="btn btn-secondary btn-sm" target="_blank" rel="noopener">Consultar por WhatsApp &rarr;</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contenido Tab 4: Combate -->
+      <div class="tab-pane" id="tab-combate">
+        <div class="services-cards-grid">
+          <div class="service-card">
+            <div class="service-card-top">
+              <div class="service-badge-row">
+                <span class="service-level-badge">Zona Ring</span>
+                <div class="service-icon-wrap">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M3 15h18M9 3v18M15 3v18"/></svg>
+                </div>
+              </div>
+              <h3 class="service-card-title">Boxeo & Manoplas Funcionales</h3>
+              <p class="service-card-desc">Aprende técnica real de boxeo: desplazamientos, guardia, combinaciones de golpes y trabajo de costal para descargar el estrés laboral y moldear hombros y abdomen.</p>
+              <ul class="service-feature-list">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Área con cuerdas de ring y sacos pesados de pegada</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Coordinación, agilidad y reflejos fulgurantes</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Quema calórica masiva sin impacto en rodillas</li>
+              </ul>
+            </div>
+            <a href="https://wa.me/573508702821?text=Hola,%20quiero%20info%20de%20las%20sesiones%20de%20Boxeo%20en%20Xtreme%20Force" class="btn btn-secondary btn-sm" target="_blank" rel="noopener">Consultar por WhatsApp &rarr;</a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-card-top">
+              <div class="service-badge-row">
+                <span class="service-level-badge">Agilidad & Core</span>
+                <div class="service-icon-wrap">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m10 15 5-3-5-3v6Z"/></svg>
+                </div>
+              </div>
+              <h3 class="service-card-title">Combate Acondicionado</h3>
+              <p class="service-card-desc">Combinación de shadowboxing, ejercicios pliométricos y trabajo de core abdominal de 360 grados para una resistencia de campeón.</p>
+              <ul class="service-feature-list">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Trabajo específico de rotación de tronco y oblicuos</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> No necesitas experiencia previa en combate</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Libera tensiones y gana confianza total</li>
+              </ul>
+            </div>
+            <a href="https://wa.me/573508702821?text=Hola,%20quiero%20conocer%20sobre%20las%20sesiones%20de%20Combate%20Acondicionado" class="btn btn-secondary btn-sm" target="_blank" rel="noopener">Consultar por WhatsApp &rarr;</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contenido Tab 5: Movilidad & Recovery -->
+      <div class="tab-pane" id="tab-recovery">
+        <div class="services-cards-grid">
+          <div class="service-card">
+            <div class="service-card-top">
+              <div class="service-badge-row">
+                <span class="service-level-badge">Salud & Bienestar</span>
+                <div class="service-icon-wrap">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+                </div>
+              </div>
+              <h3 class="service-card-title">Liberación Miofascial & Foam Rolling</h3>
+              <p class="service-card-desc">Técnicas de auto-masaje con rodillos y pelotas de presión para deshacer nudos musculares, mejorar el flujo sanguíneo y acelerar la recuperación entre entrenamientos duros.</p>
+              <ul class="service-feature-list">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Alivia dolor de espalda y tensión en piernas</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Aumenta tu rango de movimiento en sentadillas</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Guía paso a paso por nuestros instructores</li>
+              </ul>
+            </div>
+            <a href="https://wa.me/573508702821?text=Hola,%20quiero%20informaci%C3%B3n%20sobre%20movilidad%20y%20recuperaci%C3%B3n" class="btn btn-secondary btn-sm" target="_blank" rel="noopener">Consultar por WhatsApp &rarr;</a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-card-top">
+              <div class="service-badge-row">
+                <span class="service-level-badge">Prevención</span>
+                <div class="service-icon-wrap">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v8M8 12h8"/></svg>
+                </div>
+              </div>
+              <h3 class="service-card-title">Movilidad Articular & Estiramiento Consciente</h3>
+              <p class="service-card-desc">Protocolos de estiramiento asistido y activación de estabilizadores para mantener tus hombros, caderas y columna saludables durante años.</p>
+              <ul class="service-feature-list">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Corrección de postura ante jornadas de oficina</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Respiración guiada para bajar el cortisol</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Reduce en un 90% el riesgo de sobrecargas</li>
+              </ul>
+            </div>
+            <a href="https://wa.me/573508702821?text=Hola,%20quiero%20conocer%20sobre%20los%20planes%20de%20Movilidad%20Articular" class="btn btn-secondary btn-sm" target="_blank" rel="noopener">Consultar por WhatsApp &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       HORARIOS EN TIEMPO REAL
+       ========================================================================== -->
+  <section class="schedule-section" id="horarios">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Disponibilidad en Envigado</span>
+        <h2 class="section-title">Horarios de <span class="neon-text">Entrenamiento</span></h2>
+        <p class="section-subtitle">Horario extendido en doble jornada para que entrenes antes de ir al trabajo o al terminar tu día.</p>
+      </div>
+
+      <!-- Barra de estado en vivo -->
+      <div class="schedule-live-box">
+        <div class="schedule-live-info">
+          <div class="status-dot active" id="schedule-status-dot"></div>
+          <div>
+            <strong id="schedule-status-title" style="font-size: 1.15rem; color: #fff;">Calculando estado...</strong>
+            <p id="schedule-status-desc" style="color: var(--text-muted); font-size: 0.88rem; margin: 0;">Horario de Colombia (UTC-5)</p>
+          </div>
+        </div>
+        <div class="live-clock-pill" id="colombia-clock">00:00:00 AM</div>
+      </div>
+
+      <!-- Cuadrícula de Horarios -->
+      <div class="schedule-grid">
+        <!-- Lunes a Jueves -->
+        <div class="schedule-day-card" id="card-lun-jue">
+          <span class="today-tag" style="display: none;">HOY</span>
+          <h3>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--neon)" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+            Lunes a Jueves
+          </h3>
+          <div class="schedule-shift">
+            <div class="schedule-shift-label">Mañanas:</div>
+            <div class="schedule-shift-time">5:00 a.m. – 12:00 m.</div>
+          </div>
+          <div class="schedule-shift">
+            <div class="schedule-shift-label">Tardes / Noches:</div>
+            <div class="schedule-shift-time">3:00 p.m. – 9:00 p.m.</div>
+          </div>
+        </div>
+
+        <!-- Viernes -->
+        <div class="schedule-day-card" id="card-vie">
+          <span class="today-tag" style="display: none;">HOY</span>
+          <h3>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--neon)" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+            Viernes
+          </h3>
+          <div class="schedule-shift">
+            <div class="schedule-shift-label">Mañanas:</div>
+            <div class="schedule-shift-time">5:00 a.m. – 12:00 m.</div>
+          </div>
+          <div class="schedule-shift">
+            <div class="schedule-shift-label">Tardes / Noches:</div>
+            <div class="schedule-shift-time">3:00 p.m. – 8:00 p.m.</div>
+          </div>
+        </div>
+
+        <!-- Sábados -->
+        <div class="schedule-day-card" id="card-sab">
+          <span class="today-tag" style="display: none;">HOY</span>
+          <h3>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--neon)" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+            Sábados
+          </h3>
+          <div class="schedule-shift">
+            <div class="schedule-shift-label">Jornada Continua:</div>
+            <div class="schedule-shift-time">8:00 a.m. – 12:00 m.</div>
+          </div>
+          <p style="color: var(--text-dim); font-size: 0.8rem; margin-top: 14px;">Ideal para entrenamientos de fin de semana con amigos.</p>
+        </div>
+
+        <!-- Festivos -->
+        <div class="schedule-day-card" id="card-festivos">
+          <span class="today-tag" style="display: none;">HOY</span>
+          <h3>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--neon)" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
+            Festivos
+          </h3>
+          <div class="schedule-shift">
+            <div class="schedule-shift-label">Jornada Festiva:</div>
+            <div class="schedule-shift-time">9:00 a.m. – 12:00 m.</div>
+          </div>
+          <p style="color: var(--text-dim); font-size: 0.8rem; margin-top: 14px;">Domingos: Descanso & recuperación muscular.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       PLANES Y MEMBRESÍAS
+       ========================================================================== -->
+  <section class="pricing-section" id="planes">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Inversión en tu Salud</span>
+        <h2 class="section-title">Elige el plan que <span class="neon-text">mejor se adapte a ti</span></h2>
+        <p class="section-subtitle">Sin cláusulas abusivas ni cobros sorpresa. Acceso total a todas las zonas de Xtreme Force.</p>
+      </div>
+
+      <!-- Selector de periodicidad -->
+      <div class="pricing-toggle-wrap">
+        <button class="pricing-toggle-btn active" id="btn-period-monthly">Plan Mensual</button>
+        <button class="pricing-toggle-btn" id="btn-period-quarterly">
+          Plan Trimestral <span class="discount-pill">-15% OFF</span>
+        </button>
+      </div>
+
+      <!-- Tarjetas de precios -->
+      <div class="pricing-grid">
+        <!-- Tarjeta 1: Pase Diario -->
+        <div class="pricing-card">
+          <div>
+            <h3 class="pricing-plan-name">Pase Diario / Tiquera</h3>
+            <p class="pricing-plan-desc">Perfecto si vienes de visita a Envigado o quieres probar sin compromisos.</p>
+            <div class="pricing-price-wrap">
+              <span class="pricing-currency">COP $</span>
+              <span class="pricing-amount" id="price-card-1">15.000</span>
+              <span class="pricing-period">/ día</span>
+            </div>
+            <ul class="pricing-features">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Acceso total al gimnasio por 1 día</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Zona de pesas y funcional incluida</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Lockers y vestidores</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Orientación de los entrenadores de turno</li>
+            </ul>
+          </div>
+          <a href="https://wa.me/573508702821?text=Hola%20Xtreme%20Force,%20quiero%20comprar%20un%20Pase%20Diario" class="btn btn-secondary" target="_blank" rel="noopener">Comprar Pase Diario</a>
+        </div>
+
+        <!-- Tarjeta 2: Plan Estrella (Destacado) -->
+        <div class="pricing-card featured">
+          <span class="pricing-featured-badge">MÁS POPULAR</span>
+          <div>
+            <h3 class="pricing-plan-name">Plan Full Xtreme</h3>
+            <p class="pricing-plan-desc">Entrenamiento ilimitado con acompañamiento técnico continuo.</p>
+            <div class="pricing-price-wrap">
+              <span class="pricing-currency">COP $</span>
+              <span class="pricing-amount" id="price-card-2">95.000</span>
+              <span class="pricing-period" id="period-card-2">/ mes</span>
+            </div>
+            <ul class="pricing-features">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Acceso ilimitado en todos los turnos</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Pesas libres, máquinas y zona funcional</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Clases grupales y circuitos HIIT incluidos</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Valoración antropométrica y test de fuerza</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Rutina estructurada según tu nivel</li>
+            </ul>
+          </div>
+          <a href="https://wa.me/573508702821?text=Hola%20Xtreme%20Force,%20quiero%20inscribirme%20al%20Plan%20Full%20Xtreme" class="btn btn-primary" target="_blank" rel="noopener">Inscribirme a Este Plan</a>
+        </div>
+
+        <!-- Tarjeta 3: Plan VIP Semestral/Anual -->
+        <div class="pricing-card">
+          <div>
+            <h3 class="pricing-plan-name">Plan Élite Transformación</h3>
+            <p class="pricing-plan-desc">Máximo compromiso, máxima recompensa y ahorro superior.</p>
+            <div class="pricing-price-wrap">
+              <span class="pricing-currency">COP $</span>
+              <span class="pricing-amount" id="price-card-3">250.000</span>
+              <span class="pricing-period" id="period-card-3">/ 3 meses</span>
+            </div>
+            <ul class="pricing-features">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Todo lo incluido en el Plan Full</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Congelación de membresía por viaje (hasta 15 días)</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Camiseta oficial de Xtreme Force de regalo</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg> Guía de alimentación deportiva sugerida</li>
+            </ul>
+          </div>
+          <a href="https://wa.me/573508702821?text=Hola%20Xtreme%20Force,%20quiero%20aprovechar%20la%20promoci%C3%B3n%20del%20Plan%20%C3%89lite" class="btn btn-secondary" target="_blank" rel="noopener">Aprovechar Descuento</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       HERRAMIENTA FITNESS INTERACTIVA: CALCULADORA IMC & OBJETIVOS
+       ========================================================================== -->
+  <section class="calculator-section" id="calculadora">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Diagnóstico Gratuito</span>
+        <h2 class="section-title">Calculadora de IMC & <span class="neon-text">Plan Recomendado</span></h2>
+        <p class="section-subtitle">Descubre tu índice de masa corporal y recibe una recomendación adaptada a tu meta física.</p>
+      </div>
+
+      <div class="calculator-box">
+        <!-- Formulario -->
+        <div class="calculator-form-group">
+          <div class="form-field">
+            <label for="calc-height">Tu Altura (en centímetros, ej: 175)</label>
+            <input type="number" id="calc-height" placeholder="Ejemplo: 172" min="120" max="230" value="172">
+          </div>
+
+          <div class="form-field">
+            <label for="calc-weight">Tu Peso (en kilogramos, ej: 70)</label>
+            <input type="number" id="calc-weight" placeholder="Ejemplo: 68" min="35" max="200" value="68">
+          </div>
+
+          <div class="form-field">
+            <label for="calc-goal">¿Cuál es tu objetivo principal?</label>
+            <select id="calc-goal">
+              <option value="perder-grasa">🔥 Perder grasa corporal y tonificar</option>
+              <option value="ganar-musculo">🏋️‍♂️ Ganar masa muscular y fuerza</option>
+              <option value="resistencia-salud">⚡ Mejorar resistencia y salud cardiovascular</option>
+              <option value="rendimiento-atletico">🥊 Rendimiento atlético y cross-training</option>
+            </select>
+          </div>
+
+          <button class="btn btn-primary" id="btn-run-calc" style="margin-top: 10px;">
+            Calcular mi Diagnóstico Ahora
+          </button>
+        </div>
+
+        <!-- Resultado -->
+        <div class="calculator-result-box">
+          <div style="font-size: 0.85rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 6px;">
+            Tu Índice de Masa Corporal (IMC)
+          </div>
+          <div class="imc-score" id="imc-val">23.0</div>
+          <div class="imc-category" id="imc-cat">Peso Saludable / Normal</div>
+          <p class="imc-recommendation" id="imc-rec">
+            ¡Tienes una excelente base corporal! Tu plan ideal en Xtreme Force es una combinación de 4 días de fuerza con 2 días de HIIT funcional para definir tono muscular y aumentar potencia.
+          </p>
+          <a href="#" id="btn-share-calc-whatsapp" class="btn btn-outline-neon btn-sm" target="_blank" rel="noopener">
+            📲 Enviar a un Coach por WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       GALERÍA REAL & LIGHTBOX
+       ========================================================================== -->
+  <section class="gallery-section" id="galeria">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Instalaciones Reales en Envigado</span>
+        <h2 class="section-title">Dentro de <span class="neon-text">Xtreme Force</span></h2>
+        <p class="section-subtitle">Fotos 100% reales de nuestro gimnasio en la Calle 44 Sur. Haz clic en cualquier foto para ver en detalle.</p>
+      </div>
+
+      <!-- Filtros de Galería -->
+      <div class="gallery-filter-nav">
+        <button class="tab-trigger active" data-filter="all">Todas las Fotos</button>
+        <button class="tab-trigger" data-filter="zonas">Áreas de Entrenamiento</button>
+        <button class="tab-trigger" data-filter="motivacion">Comunidad & Murales</button>
+        <button class="tab-trigger" data-filter="fachada">Sede Exterior</button>
+      </div>
+
+      <div class="gallery-grid">
+        <!-- Foto 1 -->
+        <div class="gallery-card" data-category="zonas" data-title="Piso Funcional & Luces Neón" data-desc="Pista con luces X neón verde, barras olímpicas, conos de agilidad y cajones pliométricos.">
+          <img src="img/gym-1.jpg" alt="Pista de entrenamiento funcional con luces neon en Xtreme Force Envigado" loading="lazy">
+          <div class="gallery-overlay">
+            <h4>Piso Funcional & Neón</h4>
+            <p>Ver en tamaño completo &rarr;</p>
+          </div>
+        </div>
+
+        <!-- Foto 2 -->
+        <div class="gallery-card" data-category="fachada" data-title="Fachada Principal en Envigado" data-desc="Calle 44 Sur #43A-105. Fachada de ladrillo negro con el logo 3D de Xtreme Force.">
+          <img src="img/gym-2.jpg" alt="Fachada exterior del gimnasio Xtreme Force en Envigado" loading="lazy">
+          <div class="gallery-overlay">
+            <h4>Fachada Calle 44 Sur</h4>
+            <p>Ver en tamaño completo &rarr;</p>
+          </div>
+        </div>
+
+        <!-- Foto 3 -->
+        <div class="gallery-card" data-category="zonas" data-title="Área General de Levantamiento" data-desc="Amplitud de 600m² con sacos de impacto, plataformas de peso muerto y área de cardio.">
+          <img src="img/gym-3.jpg" alt="Vista amplia de la zona de levantamiento y pesas en Xtreme Force" loading="lazy">
+          <div class="gallery-overlay">
+            <h4>Área General de Levantamiento</h4>
+            <p>Ver en tamaño completo &rarr;</p>
+          </div>
+        </div>
+
+        <!-- Foto 4 -->
+        <div class="gallery-card" data-category="motivacion" data-title="Escalera de la Actitud & Logo" data-desc="Mural verde con el escudo guerrero y las escaleras con palabras de motivación diaria.">
+          <img src="img/gym-4.jpg" alt="Escaleras motivacionales con logo verde Xtreme Force" loading="lazy">
+          <div class="gallery-overlay">
+            <h4>Escalera de la Actitud</h4>
+            <p>Ver en tamaño completo &rarr;</p>
+          </div>
+        </div>
+
+        <!-- Foto 5 -->
+        <div class="gallery-card" data-category="zonas" data-title="Zona de Fuerza & Cuerdas de Ring" data-desc="Pared 'Pasión, Actitud, Energía, Fuerza' junto al área de ring y trineos.">
+          <img src="img/gym-5.jpg" alt="Mural industrial de pasión y actitud en gimnasio Envigado" loading="lazy">
+          <div class="gallery-overlay">
+            <h4>Pasión & Fuerza</h4>
+            <p>Ver en tamaño completo &rarr;</p>
+          </div>
+        </div>
+
+        <!-- Foto 6 -->
+        <div class="gallery-card" data-category="motivacion" data-title="Despierta tu Grandeza" data-desc="Comunidad entrenando con kettlebells bajo nuestro mural lema de superación personal.">
+          <img src="img/gym-6.jpg" alt="Atleta entrenando con kettlebell en Xtreme Force Envigado" loading="lazy">
+          <div class="gallery-overlay">
+            <h4>Despierta tu Grandeza</h4>
+            <p>Ver en tamaño completo &rarr;</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div class="lightbox-modal" id="lightbox-modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="lightbox-img-wrap">
+      <button class="lightbox-close-btn" id="lightbox-close">&times;</button>
+      <img src="" alt="" class="lightbox-img" id="lightbox-img">
+      <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       COMUNIDAD & TESTIMONIOS
+       ========================================================================== -->
+  <section class="testimonials-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Comunidad XF</span>
+        <h2 class="section-title">Lo que dicen nuestros <span class="neon-text">atletas en Envigado</span></h2>
+        <p class="section-subtitle">Historias reales de personas que transformaron su físico y energía con nosotros.</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div>
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-quote">
+              "El ambiente de Xtreme Force no se compara con los gimnasios de cadena donde nadie te presta atención. Aquí los entrenadores están pendientes de corregirte la postura y la vibra de la gente te hace entrenar con ganas."
+            </p>
+          </div>
+          <div class="testimonial-author">
+            <div class="author-avatar">MG</div>
+            <div class="author-meta">
+              <strong>Mateo Gómez</strong>
+              <span>Entrena hace 1 año · Envigado</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div>
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-quote">
+              "Llegué con dolores lumbares y miedo de hacer sentadillas con peso. Gracias a la pedagogía de los profes hoy levanto con confianza y bajé 7 kilos de grasa corporal. ¡Totalmente recomendado!"
+            </p>
+          </div>
+          <div class="testimonial-author">
+            <div class="author-avatar">CR</div>
+            <div class="author-meta">
+              <strong>Carolina Restrepo</strong>
+              <span>Entrena hace 8 meses · San Marcos</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div>
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-quote">
+              "Los horarios desde las 5:00 AM son una bendición para entrenar antes de la oficina. Los equipos están siempre limpios, la música motiva y no hay que hacer filas eternas para usar una barra."
+            </p>
+          </div>
+          <div class="testimonial-author">
+            <div class="author-avatar">DM</div>
+            <div class="author-meta">
+              <strong>David Morales</strong>
+              <span>Entrena hace 2 años · Envigado</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       PREGUNTAS FRECUENTES (FAQ)
+       ========================================================================== -->
+  <section class="faq-section" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Resolvemos tus dudas</span>
+        <h2 class="section-title">Preguntas <span class="neon-text">Frecuentes</span></h2>
+        <p class="section-subtitle">Todo lo que necesitas saber antes de tu primera sesión de entrenamiento.</p>
+      </div>
+
+      <div class="faq-accordion">
+        <details class="faq-item" open>
+          <summary class="faq-summary">
+            ¿Cómo reclamo mi clase de prueba gratis?
+            <span class="faq-icon-arrow">&#9662;</span>
+          </summary>
+          <div class="faq-content">
+            Es muy fácil: haz clic en el botón "Clase Gratis", completa tus datos o escríbenos directamente a nuestro WhatsApp oficial (+57 350 870 2821). Te agendaremos en el horario que prefieras para que un coach te reciba y te guíe en tu primera sesión sin ningún costo.
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-summary">
+            ¿Qué pasa si nunca antes he entrenado en un gimnasio?
+            <span class="faq-icon-arrow">&#9662;</span>
+          </summary>
+          <div class="faq-content">
+            ¡Estás en el lugar indicado! Nuestro principio es el entrenamiento consciente. Te enseñaremos los patrones básicos de movimiento paso a paso, con pesos adaptados a tu condición actual para que avances seguro y con buena técnica desde el día 1.
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-summary">
+            ¿Tienen parqueadero o espacio para motos y bicicletas?
+            <span class="faq-icon-arrow">&#9662;</span>
+          </summary>
+          <div class="faq-content">
+            Sí, contamos con espacio para parquear motocicletas y bicicletas frente y en zonas autorizadas de la sede. Además, sobre la Calle 44 Sur hay bahías cómodas de parqueo para vehículos.
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-summary">
+            ¿Qué métodos de pago reciben?
+            <span class="faq-icon-arrow">&#9662;</span>
+          </summary>
+          <div class="faq-content">
+            Recibimos transferencias Bancolombia, Nequi, Daviplata, tarjetas débito y crédito, y efectivo en la recepción del gimnasio.
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-summary">
+            ¿Los planes incluyen todas las zonas o debo pagar extras?
+            <span class="faq-icon-arrow">&#9662;</span>
+          </summary>
+          <div class="faq-content">
+            Tu mensualidad incluye acceso total a la zona de pesas y musculación, piso funcional con césped sintético, área de combate, clases grupales y uso de lockers y duchas. Sin costos ocultos.
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       UBICACIÓN & SEDE EN ENVIGADO
+       ========================================================================== -->
+  <section class="location-section" id="ubicacion">
+    <div class="container">
+      <div class="location-grid">
+        <div class="location-details-card">
+          <div class="location-badge-zone">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Sede Principal Envigado
+          </div>
+          <h2 class="location-address-title">Calle 44 Sur #43A-105</h2>
+          <p class="location-reference">
+            Envigado, Antioquia. Ubicados estratégicamente cerca a la canalización, a pocos minutos del Parque de Envigado y del Centro Comercial Viva Envigado. Fácil acceso en transporte público, Metro y rutas alimentadoras.
+          </p>
+
+          <div class="location-pills-list">
+            <div class="location-pill-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Fácil llegada desde Sabaneta, Poblado y Envigado centro</span>
+            </div>
+            <div class="location-pill-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Zona segura y tranquila para entrenar a cualquier hora</span>
+            </div>
+            <div class="location-pill-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Teléfono / WhatsApp de atención: +57 350 870 2821</span>
+            </div>
+          </div>
+
+          <div class="location-buttons-row">
+            <button class="btn btn-primary" id="btn-copy-address">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              Copiar Dirección
+            </button>
+            <a href="https://www.google.com/maps/dir/?api=1&destination=Calle+44+Sur+%2343A-105,+Envigado,+Antioquia,+Colombia" class="btn btn-secondary" target="_blank" rel="noopener">
+              Cómo Llegar con Google Maps
+            </a>
+          </div>
+        </div>
+
+        <div class="map-frame-box">
+          <iframe
+            src="https://www.google.com/maps?q=Calle+44+Sur+%2343A-105,+Envigado,+Antioquia,+Colombia&output=embed"
+            title="Mapa interactivo con la ubicación de Xtreme Force en Envigado"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CTA FINAL
+       ========================================================================== -->
+  <section class="cta-final-section">
+    <div class="container">
+      <div class="cta-final-inner">
+        <span class="tag-badge" style="margin-bottom: 20px;">Tu Momento Es Ahora</span>
+        <h2 class="cta-title">¿Listo para despertar <span class="neon-text">tu grandeza</span>?</h2>
+        <p class="cta-description">
+          Deja de postergar tus metas. Ven a entrenar a Xtreme Force Envigado, conoce a tus futuros entrenadores y vive en carne propia la energía de nuestra sede.
+        </p>
+        <div class="cta-actions">
+          <button class="btn btn-primary" id="btn-cta-bottom-trial" style="font-size: 1.05rem; padding: 16px 36px;">
+            🔥 Agendar mi Clase de Prueba Gratis
+          </button>
+          <a href="https://wa.me/573508702821?text=Hola%20Xtreme%20Force,%20quiero%20empezar%20a%20entrenar%20esta%20semana!" class="btn btn-secondary" target="_blank" rel="noopener" style="font-size: 1.05rem; padding: 16px 32px;">
+            Escribir a WhatsApp
+          </a>
+        </div>
+        <div>
+          <a href="https://instagram.com/xf_envigado" class="ig-social-pill" target="_blank" rel="noopener">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            Síguenos en Instagram @xf_envigado (+8.000 seguidores)
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <img src="img/logo.png" alt="Xtreme Force" style="width: 28px; height: 28px; border-radius: 4px;">
+        <strong style="color: #fff;">Xtreme Force Envigado</strong> · <span>Cambiando Vidas</span>
+      </div>
+      <div>
+        Calle 44 Sur #43A-105 · Envigado, Antioquia · <a href="https://wa.me/573508702821" style="color: var(--neon);" target="_blank" rel="noopener">+57 350 870 2821</a>
+      </div>
+      <div>
+        © <span id="year-copy"></span> Xtreme Force. Todos los derechos reservados.
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       MODAL DE AGENDAMIENTO DE CLASE DE PRUEBA (<dialog>)
+       ========================================================================== -->
+  <dialog class="modal-dialog" id="trial-modal">
+    <div class="modal-header">
+      <h3 class="modal-title">Clase de <span class="neon-text">Prueba Gratis</span></h3>
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Cerrar modal">&times;</button>
+    </div>
+    <p style="color: var(--text-muted); font-size: 0.92rem; margin-bottom: 20px;">
+      Completa tus datos y te redirigiremos a WhatsApp con tu turno reservado de inmediato.
+    </p>
+
+    <form class="modal-form" id="trial-form" onsubmit="return false;">
+      <div class="form-field">
+        <label for="trial-name">Tu Nombre Completo</label>
+        <input type="text" id="trial-name" placeholder="Ej: Santiago Restrepo" required>
+      </div>
+
+      <div class="form-field">
+        <label for="trial-shift">Horario en el que prefieres asistir</label>
+        <select id="trial-shift">
+          <option value="Mañana (5:00 AM a 9:00 AM)">Mañana temprano (5:00 a.m. a 9:00 a.m.)</option>
+          <option value="Media mañana (9:00 AM a 12:00 PM)">Media mañana (9:00 a.m. a 12:00 m.)</option>
+          <option value="Tarde (3:00 PM a 6:00 PM)">Tarde (3:00 p.m. a 6:00 p.m.)</option>
+          <option value="Noche (6:00 PM a 9:00 PM)">Noche (6:00 p.m. a 9:00 p.m.)</option>
+          <option value="Sábado (8:00 AM a 12:00 PM)">Sábado (8:00 a.m. a 12:00 m.)</option>
+        </select>
+      </div>
+
+      <div class="form-field">
+        <label for="trial-experience">Tu nivel de entrenamiento actual</label>
+        <select id="trial-experience">
+          <option value="Principiante (quiero empezar de cero)">Principiante (quiero empezar desde cero)</option>
+          <option value="Intermedio (ya he entrenado antes)">Intermedio (he entrenado antes)</option>
+          <option value="Avanzado (busco alto rendimiento)">Avanzado (busco alto rendimiento)</option>
+        </select>
+      </div>
+
+      <button type="submit" class="btn btn-primary" id="btn-submit-trial" style="margin-top: 10px;">
+        🚀 Enviar y Confirmar por WhatsApp
+      </button>
+    </form>
+  </dialog>
+
+  <!-- ==========================================================================
+       WHATSAPP FLOTANTE CON GLOBO
+       ========================================================================== -->
+  <div class="whatsapp-float-wrap">
+    <div class="whatsapp-tooltip">
+      👋 ¿Dudas? ¡Escríbenos y agenda hoy!
+    </div>
+    <a href="https://wa.me/573508702821?text=Hola%20Xtreme%20Force%20Envigado!%20Quiero%20m%C3%A1s%20informaci%C3%B3n" class="whatsapp-float-btn" target="_blank" rel="noopener" aria-label="Escríbenos a WhatsApp">
+      <svg viewBox="0 0 32 32" width="30" height="30" fill="currentColor" aria-hidden="true">
+        <path d="M16.02 2.67C8.65 2.67 2.67 8.65 2.67 16.02c0 2.55.71 4.94 1.94 6.98L2.67 29.33l6.5-1.87a13.28 13.28 0 0 0 6.85 1.89c7.37 0 13.35-5.98 13.35-13.35S23.39 2.67 16.02 2.67zm7.77 19.08c-.33.92-1.63 1.69-2.66 1.9-.71.15-1.63.27-4.74-1.02-3.97-1.65-6.52-5.66-6.72-5.93-.2-.27-1.61-2.15-1.61-4.1 0-1.95.99-2.9 1.35-3.3.36-.4.78-.5 1.04-.5.26 0 .52 0 .75.01.24.01.56-.09.88.67.33.79 1.11 2.73 1.2 2.93.1.2.16.43.03.7-.13.27-.2.43-.4.66-.2.23-.42.52-.6.7-.2.2-.41.42-.18.82.23.4 1.03 1.7 2.21 2.75 1.52 1.35 2.8 1.77 3.2 1.97.4.2.63.17.87-.1.24-.27 1-.98 1.27-.13.26.28.26.51.16.7z"/>
+      </svg>
+    </a>
+  </div>
+
+  <!-- Toast de Notificaciones -->
+  <div class="toast-notice" id="toast-notice">¡Dirección copiada al portapapeles!</div>
+
+  <!-- ==========================================================================
+       JAVASCRIPT
+       ========================================================================== -->
+  <script>
+    // 1. Año dinámico
+    document.getElementById('year-copy').textContent = new Date().getFullYear();
+
+    // 2. Control de Estado en Vivo (Abierto / Cerrado) según Hora de Colombia (UTC-5)
+    function getColombiaTime() {
+      const now = new Date();
+      // UTC time + Colombia offset (-5 hours)
+      const utc = now.getTime() + (now.getTimezoneOffset() * 60000);
+      return new Date(utc - (5 * 3600000));
+    }
+
+    function updateLiveStatus() {
+      const colDate = getColombiaTime();
+      const day = colDate.getDay(); // 0: Dom, 1: Lun, 2: Mar, 3: Mie, 4: Jue, 5: Vie, 6: Sab
+      const hours = colDate.getHours();
+      const minutes = colDate.getMinutes();
+      const currentDec = hours + (minutes / 60);
+
+      // Formatear reloj
+      const timeStr = colDate.toLocaleTimeString('es-CO', { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true });
+      const clockEl = document.getElementById('colombia-clock');
+      if (clockEl) clockEl.textContent = timeStr;
+
+      let isOpen = false;
+      let nextAction = '';
+
+      // Evaluar horario
+      if (day >= 1 && day <= 4) { // Lunes a Jueves: 5:00 a 12:00 y 15:00 a 21:00
+        if ((currentDec >= 5.0 && currentDec < 12.0) || (currentDec >= 15.0 && currentDec < 21.0)) {
+          isOpen = true;
+          nextAction = currentDec < 12.0 ? 'Cierra a las 12:00 m.' : 'Cierra a las 9:00 p.m.';
+        } else if (currentDec < 5.0) {
+          nextAction = 'Abre hoy a las 5:00 a.m.';
+        } else if (currentDec >= 12.0 && currentDec < 15.0) {
+          nextAction = 'Reabre hoy a las 3:00 p.m.';
+        } else {
+          nextAction = 'Abre mañana a las 5:00 a.m.';
+        }
+      } else if (day === 5) { // Viernes: 5:00 a 12:00 y 15:00 a 20:00
+        if ((currentDec >= 5.0 && currentDec < 12.0) || (currentDec >= 15.0 && currentDec < 20.0)) {
+          isOpen = true;
+          nextAction = currentDec < 12.0 ? 'Cierra a las 12:00 m.' : 'Cierra a las 8:00 p.m.';
+        } else if (currentDec < 5.0) {
+          nextAction = 'Abre hoy a las 5:00 a.m.';
+        } else if (currentDec >= 12.0 && currentDec < 15.0) {
+          nextAction = 'Reabre hoy a las 3:00 p.m.';
+        } else {
+          nextAction = 'Abre mañana sábado a las 8:00 a.m.';
+        }
+      } else if (day === 6) { // Sábado: 8:00 a 12:00
+        if (currentDec >= 8.0 && currentDec < 12.0) {
+          isOpen = true;
+          nextAction = 'Cierra hoy a las 12:00 m.';
+        } else if (currentDec < 8.0) {
+          nextAction = 'Abre hoy a las 8:00 a.m.';
+        } else {
+          nextAction = 'Abre lunes a las 5:00 a.m.';
+        }
+      } else { // Domingo: Cerrado
+        nextAction = 'Abre el lunes a las 5:00 a.m.';
+      }
+
+      // Actualizar Navbar badge
+      const statusDot = document.getElementById('status-dot');
+      const statusText = document.getElementById('status-text');
+      const schedDot = document.getElementById('schedule-status-dot');
+      const schedTitle = document.getElementById('schedule-status-title');
+      const schedDesc = document.getElementById('schedule-status-desc');
+
+      if (isOpen) {
+        if (statusDot) { statusDot.className = 'status-dot active'; }
+        if (statusText) { statusText.textContent = 'Abierto Ahora'; }
+        if (schedDot) { schedDot.className = 'status-dot active'; }
+        if (schedTitle) { schedTitle.innerHTML = '🟢 <span style="color: var(--neon)">ABIERTO AHORA</span> EN ENVIGADO'; }
+        if (schedDesc) { schedDesc.textContent = `${nextAction} · ¡Ven a entrenar!`; }
+      } else {
+        if (statusDot) { statusDot.className = 'status-dot'; }
+        if (statusText) { statusText.textContent = 'Cerrado Ahora'; }
+        if (schedDot) { schedDot.className = 'status-dot'; }
+        if (schedTitle) { schedTitle.innerHTML = '🔴 CERRADO EN ESTE MOMENTO'; }
+        if (schedDesc) { schedDesc.textContent = nextAction; }
+      }
+
+      // Destacar la tarjeta de hoy
+      document.querySelectorAll('.schedule-day-card').forEach(c => c.classList.remove('today'));
+      document.querySelectorAll('.today-tag').forEach(t => t.style.display = 'none');
+
+      let targetCardId = '';
+      if (day >= 1 && day <= 4) targetCardId = 'card-lun-jue';
+      else if (day === 5) targetCardId = 'card-vie';
+      else if (day === 6) targetCardId = 'card-sab';
+      else targetCardId = 'card-festivos';
+
+      const targetCard = document.getElementById(targetCardId);
+      if (targetCard) {
+        targetCard.classList.add('today');
+        const tag = targetCard.querySelector('.today-tag');
+        if (tag) tag.style.display = 'inline-block';
+      }
+    }
+
+    updateLiveStatus();
+    setInterval(updateLiveStatus, 1000);
+
+    // 3. Menú Móvil
+    const mobileBtn = document.getElementById('mobile-toggle-btn');
+    const mobileDrawer = document.getElementById('mobile-drawer');
+
+    if (mobileBtn && mobileDrawer) {
+      mobileBtn.addEventListener('click', () => {
+        const isOpen = mobileDrawer.classList.toggle('open');
+        mobileBtn.setAttribute('aria-expanded', isOpen);
+      });
+
+      document.querySelectorAll('.mobile-link').forEach(link => {
+        link.addEventListener('click', () => {
+          mobileDrawer.classList.remove('open');
+          mobileBtn.setAttribute('aria-expanded', 'false');
+        });
+      });
+    }
+
+    // 4. Pestañas de Servicios & Disciplinas
+    const tabTriggers = document.querySelectorAll('.services-tabs-nav .tab-trigger');
+    const tabPanes = document.querySelectorAll('.tab-pane');
+
+    tabTriggers.forEach(btn => {
+      btn.addEventListener('click', () => {
+        tabTriggers.forEach(b => {
+          b.classList.remove('active');
+          b.setAttribute('aria-selected', 'false');
+        });
+        tabPanes.forEach(p => p.classList.remove('active'));
+
+        btn.classList.add('active');
+        btn.setAttribute('aria-selected', 'true');
+        const targetId = btn.getAttribute('data-tab');
+        const targetPane = document.getElementById(targetId);
+        if (targetPane) targetPane.classList.add('active');
+      });
+    });
+
+    // 5. Selector de Planes (Mensual vs Trimestral con Descuento)
+    const btnMonthly = document.getElementById('btn-period-monthly');
+    const btnQuarterly = document.getElementById('btn-period-quarterly');
+    const priceCard2 = document.getElementById('price-card-2');
+    const periodCard2 = document.getElementById('period-card-2');
+
+    if (btnMonthly && btnQuarterly) {
+      btnMonthly.addEventListener('click', () => {
+        btnMonthly.classList.add('active');
+        btnQuarterly.classList.remove('active');
+        if (priceCard2) priceCard2.textContent = '95.000';
+        if (periodCard2) periodCard2.textContent = '/ mes';
+      });
+
+      btnQuarterly.addEventListener('click', () => {
+        btnQuarterly.classList.add('active');
+        btnMonthly.classList.remove('active');
+        if (priceCard2) priceCard2.textContent = '245.000';
+        if (periodCard2) periodCard2.textContent = '/ 3 meses (Ahorras $40.000)';
+      });
+    }
+
+    // 6. Calculadora Interactiva de IMC
+    function calculateIMC() {
+      const heightVal = parseFloat(document.getElementById('calc-height').value);
+      const weightVal = parseFloat(document.getElementById('calc-weight').value);
+      const goalVal = document.getElementById('calc-goal').value;
+
+      if (!heightVal || !weightVal || heightVal <= 0 || weightVal <= 0) return;
+
+      const heightM = heightVal / 100;
+      const imc = (weightVal / (heightM * heightM)).toFixed(1);
+
+      const imcValEl = document.getElementById('imc-val');
+      const imcCatEl = document.getElementById('imc-cat');
+      const imcRecEl = document.getElementById('imc-rec');
+      const shareBtn = document.getElementById('btn-share-calc-whatsapp');
+
+      if (imcValEl) imcValEl.textContent = imc;
+
+      let category = '';
+      let recommendation = '';
+
+      if (imc < 18.5) {
+        category = 'Bajo Peso';
+        recommendation = 'Te recomendamos un programa enfocado en Superávit Calórico y Fuerza/Hipertrofia en Xtreme Force, para construir masa muscular densa y fortalecer tus articulaciones.';
+      } else if (imc >= 18.5 && imc <= 24.9) {
+        category = 'Peso Saludable / Rango Óptimo';
+        recommendation = '¡Excelente base corporal! Tu plan ideal es combinar 4 días de Musculación y 2 días de HIIT Funcional en nuestra pista para tonificar, ganar potencia y salud cardiovascular.';
+      } else if (imc >= 25.0 && imc <= 29.9) {
+        category = 'Sobrepeso Grado I';
+        recommendation = 'Te recomendamos un circuito dinámico de Cross y circuitos HIIT de alta intensidad combinados con levantamiento de pesas para acelerar la quema de grasa sin perder músculo.';
+      } else {
+        category = 'Nivel de Atención / Acondicionamiento';
+        recommendation = 'Diseñaremos un plan progresivo con bajo impacto articular, caminata inclinada, fortalecimiento de core y asesoría constante de nuestros entrenadores para cambiar tu salud.';
+      }
+
+      if (imcCatEl) imcCatEl.textContent = category;
+      if (imcRecEl) imcRecEl.textContent = recommendation;
+
+      // WhatsApp link con diagnóstico
+      if (shareBtn) {
+        const textMsg = encodeURIComponent(`Hola Xtreme Force Envigado! Hice el test en su web. Mi IMC es ${imc} (${category}) y mi objetivo es ${goalVal}. Quiero asesorarme con un Coach para empezar.`);
+        shareBtn.href = `https://wa.me/573508702821?text=${textMsg}`;
+      }
+    }
+
+    const runCalcBtn = document.getElementById('btn-run-calc');
+    if (runCalcBtn) {
+      runCalcBtn.addEventListener('click', calculateIMC);
+    }
+    calculateIMC(); // Ejecutar valor inicial
+
+    // 7. Filtros de Galería & Lightbox
+    const filterBtns = document.querySelectorAll('.gallery-filter-nav .tab-trigger');
+    const galleryCards = document.querySelectorAll('.gallery-card');
+    const lightboxModal = document.getElementById('lightbox-modal');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const lightboxCaption = document.getElementById('lightbox-caption');
+    const lightboxClose = document.getElementById('lightbox-close');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filterVal = btn.getAttribute('data-filter');
+
+        galleryCards.forEach(card => {
+          if (filterVal === 'all' || card.getAttribute('data-category') === filterVal) {
+            card.style.display = 'block';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // Abrir Lightbox
+    galleryCards.forEach(card => {
+      card.addEventListener('click', () => {
+        const img = card.querySelector('img');
+        const title = card.getAttribute('data-title') || '';
+        const desc = card.getAttribute('data-desc') || '';
+
+        if (lightboxImg && img) {
+          lightboxImg.src = img.src;
+          lightboxImg.alt = title;
+        }
+        if (lightboxCaption) {
+          lightboxCaption.innerHTML = `<strong>${title}</strong><br><span style="color: var(--neon);">${desc}</span>`;
+        }
+        if (lightboxModal) {
+          lightboxModal.classList.add('open');
+          lightboxModal.setAttribute('aria-hidden', 'false');
+        }
+      });
+    });
+
+    if (lightboxClose && lightboxModal) {
+      lightboxClose.addEventListener('click', () => {
+        lightboxModal.classList.remove('open');
+        lightboxModal.setAttribute('aria-hidden', 'true');
+      });
+      lightboxModal.addEventListener('click', (e) => {
+        if (e.target === lightboxModal) {
+          lightboxModal.classList.remove('open');
+          lightboxModal.setAttribute('aria-hidden', 'true');
+        }
+      });
+    }
+
+    // 8. Modal Nativo (<dialog>) para Clase de Cortesía
+    const trialModal = document.getElementById('trial-modal');
+    const openTrialBtns = [
+      document.getElementById('top-promo-btn'),
+      document.getElementById('btn-open-trial-modal'),
+      document.getElementById('btn-open-trial-modal-mobile'),
+      document.getElementById('hero-cta-trial'),
+      document.getElementById('btn-about-trial'),
+      document.getElementById('btn-cta-bottom-trial')
+    ].filter(Boolean);
+
+    const closeTrialBtn = document.getElementById('modal-close-btn');
+
+    openTrialBtns.forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        if (trialModal) {
+          if (typeof trialModal.showModal === 'function') {
+            trialModal.showModal();
+          } else {
+            trialModal.setAttribute('open', '');
+          }
+        }
+      });
+    });
+
+    if (closeTrialBtn && trialModal) {
+      closeTrialBtn.addEventListener('click', () => {
+        if (typeof trialModal.close === 'function') {
+          trialModal.close();
+        } else {
+          trialModal.removeAttribute('open');
+        }
+      });
+
+      // Cerrar al dar click fuera del modal (light dismiss)
+      trialModal.addEventListener('click', (e) => {
+        const rect = trialModal.getBoundingClientRect();
+        const isInDialog = (rect.top <= e.clientY && e.clientY <= rect.top + rect.height
+          && rect.left <= e.clientX && e.clientX <= rect.left + rect.width);
+        if (!isInDialog) {
+          trialModal.close();
+        }
+      });
+    }
+
+    // Envío del formulario de prueba
+    const trialForm = document.getElementById('trial-form');
+    if (trialForm) {
+      trialForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const nameVal = document.getElementById('trial-name').value.trim();
+        const shiftVal = document.getElementById('trial-shift').value;
+        const expVal = document.getElementById('trial-experience').value;
+
+        if (!nameVal) {
+          alert('Por favor escribe tu nombre');
+          return;
+        }
+
+        const msg = encodeURIComponent(`Hola Xtreme Force Envigado! Mi nombre es ${nameVal}. Me gustaría agendar mi Clase de Prueba Gratuita en el horario: ${shiftVal}. Nivel de experiencia: ${expVal}.`);
+        window.open(`https://wa.me/573508702821?text=${msg}`, '_blank');
+        if (trialModal && typeof trialModal.close === 'function') {
+          trialModal.close();
+        }
+      });
+    }
+
+    // 9. Copiar dirección al portapapeles con Toast
+    const copyAddrBtn = document.getElementById('btn-copy-address');
+    const toast = document.getElementById('toast-notice');
+
+    if (copyAddrBtn && toast) {
+      copyAddrBtn.addEventListener('click', () => {
+        const addressText = 'Calle 44 Sur #43A-105, Envigado, Antioquia, Colombia';
+        navigator.clipboard.writeText(addressText).then(() => {
+          toast.classList.add('show');
+          setTimeout(() => {
+            toast.classList.remove('show');
+          }, 2800);
+        }).catch(() => {
+          // Fallback manual si clipboard API no está disponible
+          const tempInput = document.createElement('input');
+          tempInput.value = addressText;
+          document.body.appendChild(tempInput);
+          tempInput.select();
+          document.execCommand('copy');
+          document.body.removeChild(tempInput);
+          toast.classList.add('show');
+          setTimeout(() => {
+            toast.classList.remove('show');
+          }, 2800);
+        });
+      });
+    }
+
+    // 10. Cerrar modales con tecla Escape
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        if (lightboxModal && lightboxModal.classList.contains('open')) {
+          lightboxModal.classList.remove('open');
+        }
+      }
+    });
+  </script>
+</body>
+</html>
+</html>
